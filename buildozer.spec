@@ -6,15 +6,13 @@ package.domain = org.egygroup
 source.include_exts = py,png,jpg,kv,atlas
 source.dir = .
 version = 0.1
-
-# أضف هنا أي مكتبات تستخدمها في كود بايثون مفصولة بفواصل، مثل requests, bs4 وغيرها
 requirements = python3,kivy
-
 android.permissions = INTERNET
 orientation = portrait
-android.api = 31
+
+android.api = 33
 android.minapi = 21
-android.sdk = 31
+android.sdk = 33
 android.ndk = 25b
 android.accept_sdk_license = True
 
